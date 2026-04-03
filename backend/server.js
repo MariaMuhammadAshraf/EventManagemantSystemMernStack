@@ -34,9 +34,9 @@ const app = express();
 
 // ✅ MIDDLEWARE (Inka sequence top par hona zaroori hai)
 app.use(cors({
-  origin: "*", // Filhal sab allow kar rahe hain taake connection ban jaye
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"]
 }));
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
