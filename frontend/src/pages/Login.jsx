@@ -444,12 +444,15 @@ function Login() {
     setError("");
     setLoading(true);
     try {
-      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
+      // ✅ Sahi tarika (No extra spaces or slashes)
+ const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/login", {
+  method: "POST",
+  headers: { 
+    "Content-Type": "application/json",
+    "Accept": "application/json" // Ye line add karein
+  },
+  body: JSON.stringify(formData),
+});
       const data = await res.json();
       if (!res.ok) {
         setError(data.message || "Invalid Credentials");
