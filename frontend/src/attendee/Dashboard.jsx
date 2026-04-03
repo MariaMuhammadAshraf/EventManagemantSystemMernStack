@@ -12,7 +12,7 @@
 // } from "recharts";
 // import AttendeeSidebar from "./AttendeeSidebar";
 
-// const API = "http://localhost:5000/api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // // Animation Variants
 // const fadeInUp = {
@@ -308,7 +308,7 @@ import {
 } from "recharts";
 import AttendeeSidebar from "./AttendeeSidebar";
 
-const API = "http://localhost:5000/api";
+const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },

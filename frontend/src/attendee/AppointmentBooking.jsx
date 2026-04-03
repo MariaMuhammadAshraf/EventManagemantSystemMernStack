@@ -5,7 +5,7 @@
 // import { Calendar, Clock, User, Loader2, Send, BookmarkCheck } from "lucide-react";
 // import AttendeeSidebar from "./AttendeeSidebar";
 
-// const API = "http://localhost:5000/api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // const AppointmentBooking = () => {
 //   const [date, setDate] = useState("");
@@ -272,7 +272,7 @@ import {
 } from "lucide-react";
 import AttendeeSidebar from "./AttendeeSidebar";
 
-const API = "http://localhost:5000/api";
+const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 const AppointmentBooking = () => {
   const [date, setDate] = useState("");

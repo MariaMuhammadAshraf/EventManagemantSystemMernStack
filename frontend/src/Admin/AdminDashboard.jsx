@@ -4,7 +4,7 @@
 // import { motion, AnimatePresence } from "framer-motion";
 // import AdminSidebar from "./AdminSidebar";
 
-// const API_BASE_URL = "http://localhost:5000/api";
+// const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // function Dashboard() {
 //   const [stats, setStats] = useState(null);
@@ -197,7 +197,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import AdminSidebar from "./AdminSidebar";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 function Dashboard() {
   const [stats, setStats] = useState(null);

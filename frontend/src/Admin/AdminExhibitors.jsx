@@ -2,7 +2,7 @@
 // import axios from "axios";
 // import AdminSidebar from "./AdminSidebar";
 
-// const API_BASE_URL = "http://localhost:5000/api";
+// const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // const safe = (v) => (v === undefined || v === null ? "" : String(v));
 
@@ -217,7 +217,7 @@ import axios from "axios";
 import AdminSidebar from "./AdminSidebar";
 import { Menu, RefreshCcw, Search, Trash2, Globe, Phone, Mail, Building2 } from "lucide-react";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 const safe = (v) => (v === undefined || v === null ? "" : String(v));
 

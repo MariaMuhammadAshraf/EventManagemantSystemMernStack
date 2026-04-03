@@ -12,7 +12,7 @@
 
 //   const fetchUsers = async () => {
 //     try {
-//       const res = await fetch("http://localhost:5000/api/users");
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users");
 //       const data = await res.json();
 //       if (Array.isArray(data)) {
 //         setUsers(data);
@@ -39,7 +39,7 @@
 
 //   const saveUser = async (id) => {
 //     try {
-//       const res = await fetch(`http://localhost:5000/api/users/${id}`, {
+//       const res = await fetch(`https://event-managemant-system-mern-stack.vercel.app//api/users/${id}`, {
 //         method: "PUT",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify(editForm),
@@ -55,7 +55,7 @@
 //   const deleteUser = async (id) => {
 //     if (!window.confirm("Are you sure?")) return;
 //     try {
-//       const res = await fetch(`http://localhost:5000/api/users/${id}`, { method: "DELETE" });
+//       const res = await fetch(`https://event-managemant-system-mern-stack.vercel.app//api/users/${id}`, { method: "DELETE" });
 //       if (!res.ok) throw new Error("Delete failed");
 //       setUsers((prev) => prev.filter((u) => u._id !== id));
 //     } catch (err) {
@@ -250,7 +250,7 @@ function Users() {
 
   const fetchUsers = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/users");
+      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users");
       const data = await res.json();
       if (Array.isArray(data)) {
         setUsers(data);
@@ -276,7 +276,7 @@ function Users() {
 
   const saveUser = async (id) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/users/${id}`, {
+      const res = await fetch(`https://event-managemant-system-mern-stack.vercel.app//api/users/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(editForm),
@@ -292,7 +292,7 @@ function Users() {
   const deleteUser = async (id) => {
     if (!window.confirm("Are you sure?")) return;
     try {
-      const res = await fetch(`http://localhost:5000/api/users/${id}`, { method: "DELETE" });
+      const res = await fetch(`https://event-managemant-system-mern-stack.vercel.app//api/users/${id}`, { method: "DELETE" });
       if (!res.ok) throw new Error();
       setUsers((prev) => prev.filter((u) => u._id !== id));
     } catch {

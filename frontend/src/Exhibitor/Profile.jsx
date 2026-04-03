@@ -16,7 +16,7 @@
 //   Package,
 // } from "lucide-react";
 
-// const API_BASE_URL = "http://localhost:5000/api";
+// const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // const getUserId = () => {
 //   try {
@@ -252,7 +252,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 const getUserId = () => {
   try {

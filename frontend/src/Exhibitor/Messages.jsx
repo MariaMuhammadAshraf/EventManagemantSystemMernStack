@@ -6,7 +6,7 @@
 // import { Send, RefreshCcw, User, MessageCircle, Clock, Sparkles } from "lucide-react";
 // import ExhibitorSidebar from "./ExhibitorSidebar";
 
-// const API = "http://localhost:5000";
+// const API = "https://event-managemant-system-mern-stack.vercel.app/";
 
 // const getAuth = () => {
 //   const raw = localStorage.getItem("userInfo") || localStorage.getItem("user");
@@ -268,7 +268,7 @@ import { Send, RefreshCcw, User, MessageCircle, Clock, Sparkles, Menu, X } from 
 import ExhibitorSidebar from "./ExhibitorSidebar";
 import { motion } from "framer-motion";
 
-const API = "http://localhost:5000";
+const API = "https://event-managemant-system-mern-stack.vercel.app/";
 
 const getAuth = () => {
   const raw = localStorage.getItem("userInfo") || localStorage.getItem("user");

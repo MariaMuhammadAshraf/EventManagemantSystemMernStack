@@ -11,7 +11,7 @@
 
 //   const loadData = async () => {
 //     try {
-//       const res = await axios.get("http://localhost:5000/api/contact");
+//       const res = await axios.get("https://event-managemant-system-mern-stack.vercel.app//api/contact");
 //       setData(res.data || []);
 //     } catch (err) {
 //       console.error("API ERROR:", err);
@@ -26,13 +26,13 @@
 
 //   const del = async (id) => {
 //     if (!window.confirm("Delete this message permanently?")) return;
-//     await axios.delete(`http://localhost:5000/api/contact/${id}`);
+//     await axios.delete(`https://event-managemant-system-mern-stack.vercel.app//api/contact/${id}`);
 //     loadData();
 //   };
 
 //   const update = async () => {
 //     const { _id, name, email, message } = edit;
-//     await axios.put(`http://localhost:5000/api/contact/${_id}`, {
+//     await axios.put(`https://event-managemant-system-mern-stack.vercel.app//api/contact/${_id}`, {
 //       name,
 //       email,
 //       message,
@@ -208,7 +208,7 @@ export default function AdminContact() {
 
   const loadData = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/contact");
+      const res = await axios.get("https://event-managemant-system-mern-stack.vercel.app//api/contact");
       setData(res.data || []);
     } catch (err) {
       console.error("API ERROR:", err);
@@ -221,13 +221,13 @@ export default function AdminContact() {
 
   const del = async (id) => {
     if (!window.confirm("Delete this message permanently?")) return;
-    await axios.delete(`http://localhost:5000/api/contact/${id}`);
+    await axios.delete(`https://event-managemant-system-mern-stack.vercel.app//api/contact/${id}`);
     loadData();
   };
 
   const update = async () => {
     const { _id, name, email, message } = edit;
-    await axios.put(`http://localhost:5000/api/contact/${_id}`, { name, email, message });
+    await axios.put(`https://event-managemant-system-mern-stack.vercel.app//api/contact/${_id}`, { name, email, message });
     setEdit(null);
     loadData();
   };

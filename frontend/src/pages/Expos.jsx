@@ -14,7 +14,7 @@
 //   useEffect(() => {
 //     const fetchExpos = async () => {
 //       try {
-//         const res = await fetch("http://localhost:5000/api/expos");
+//         const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/expos");
 //         const data = await res.json();
 //         const availableExpos = data.filter(
 //           (expo) => expo.availability === "available"
@@ -32,7 +32,7 @@
 //     const fetchBookmarks = async () => {
 //       if (!token) return;
 //       try {
-//         const res = await fetch("http://localhost:5000/api/bookmarks", {
+//         const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/bookmarks", {
 //           headers: { Authorization: `Bearer ${token}` },
 //         });
 //         const data = await res.json();
@@ -49,7 +49,7 @@
 //     if (!token) return; // guest click ignored
 //     try {
 //       const res = await fetch(
-//         `http://localhost:5000/api/bookmarks/${expoId}`,
+//         `https://event-managemant-system-mern-stack.vercel.app//api/bookmarks/${expoId}`,
 //         {
 //           method: "POST",
 //           headers: { Authorization: `Bearer ${token}` },
@@ -187,7 +187,7 @@ function Expos() {
   useEffect(() => {
     const fetchExpos = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/expos");
+        const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/expos");
         const data = await res.json();
         const availableExpos = data.filter(
           (expo) => expo.availability === "available"
@@ -205,7 +205,7 @@ function Expos() {
     const fetchBookmarks = async () => {
       if (!token) return;
       try {
-        const res = await fetch("http://localhost:5000/api/bookmarks", {
+        const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/bookmarks", {
           headers: { Authorization: `Bearer ${token}` },
         });
         const data = await res.json();
@@ -222,7 +222,7 @@ function Expos() {
     if (!token) return; 
     try {
       const res = await fetch(
-        `http://localhost:5000/api/bookmarks/${expoId}`,
+        `https://event-managemant-system-mern-stack.vercel.app//api/bookmarks/${expoId}`,
         {
           method: "POST",
           headers: { Authorization: `Bearer ${token}` },

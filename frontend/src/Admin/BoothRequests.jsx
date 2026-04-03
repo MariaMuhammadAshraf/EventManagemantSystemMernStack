@@ -1,7 +1,7 @@
 // import React, { useEffect, useMemo, useState } from "react";
 // import AdminSidebar from "./AdminSidebar";
 
-// const API_BASE = "http://localhost:5000";
+// const API_BASE = "https://event-managemant-system-mern-stack.vercel.app/";
 
 // export default function BoothRequests() {
 //   const admin = useMemo(() => {
@@ -391,7 +391,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import AdminSidebar from "./AdminSidebar";
 import { Menu, RefreshCcw, CheckCircle2, XCircle, Info, LayoutDashboard } from "lucide-react";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://event-managemant-system-mern-stack.vercel.app/";
 
 export default function BoothRequests() {
   const admin = useMemo(() => {

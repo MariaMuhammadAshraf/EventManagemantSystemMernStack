@@ -4,7 +4,7 @@
 // import { Users, Star, Zap, CheckCircle2, Building2, Info } from "lucide-react";
 // import AttendeeSidebar from "./AttendeeSidebar";
 
-// const API = "http://localhost:5000/api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // function AttendeeInterests() {
 //   const [exhibitors, setExhibitors] = useState([]);
@@ -204,7 +204,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Users, Star, Zap, CheckCircle2, Building2, Info, Menu } from "lucide-react";
 import AttendeeSidebar from "./AttendeeSidebar";
 
-const API = "http://localhost:5000/api";
+const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 function AttendeeInterests() {
   const [exhibitors, setExhibitors] = useState([]);

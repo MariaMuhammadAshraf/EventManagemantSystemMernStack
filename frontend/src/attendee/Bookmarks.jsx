@@ -7,7 +7,7 @@
 // import { motion, AnimatePresence } from "framer-motion";
 // import toast from "react-hot-toast";
 
-// const API = "http://localhost:5000/api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // function Bookmarks() {
 //   const navigate = useNavigate();
@@ -265,7 +265,7 @@
 // import { motion, AnimatePresence } from "framer-motion";
 // import toast from "react-hot-toast";
 
-// const API = "http://localhost:5000/api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // function Bookmarks() {
 //   const navigate = useNavigate();
@@ -534,7 +534,7 @@ import { BookmarkCheck, MapPin, Trash2, Sparkles, ArrowRight, Heart, Info, Menu 
 import { motion, AnimatePresence } from "framer-motion";
 import toast from "react-hot-toast";
 
-const API = "http://localhost:5000/api";
+const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 function Bookmarks() {
   const navigate = useNavigate();

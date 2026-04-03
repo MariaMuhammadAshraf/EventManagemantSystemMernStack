@@ -3,7 +3,7 @@
 // import ExhibitorSidebar from "./ExhibitorSidebar";
 // import { Building2, Globe, Phone, MapPin, FileText, User, Camera, Package } from "lucide-react";
 
-// const API_BASE_URL = "http://localhost:5000/api";
+// const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // const getLoggedInUser = () => {
 //   try {
@@ -152,7 +152,7 @@ import ExhibitorSidebar from "./ExhibitorSidebar";
 import { Building2, Globe, Phone, MapPin, FileText, User, Camera, Package, Menu, CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion"; // Adding subtle animations like your dashboard
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 const getLoggedInUser = () => {
   try {

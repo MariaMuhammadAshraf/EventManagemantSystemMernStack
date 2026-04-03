@@ -5,7 +5,7 @@
 // import { CheckCircle2, XCircle, Clock, User, Loader2, Calendar, Sparkles, Inbox } from "lucide-react";
 // import ExhibitorSidebar from "./ExhibitorSidebar";
 
-// const API = "http://localhost:5000/api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 // const ExhibitorAppointments = () => {
 //   const [appointments, setAppointments] = useState([]);
@@ -188,7 +188,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2, XCircle, Clock, User, Loader2, Calendar, Sparkles, Inbox, Menu } from "lucide-react";
 import ExhibitorSidebar from "./ExhibitorSidebar";
 
-const API = "http://localhost:5000/api";
+const API = "https://event-managemant-system-mern-stack.vercel.app//api";
 
 const ExhibitorAppointments = () => {
   const [appointments, setAppointments] = useState([]);

@@ -24,7 +24,7 @@ const [expos, setExpos] = useState([]); // 2. State for dynamic data
   useEffect(() => {
     const fetchExpos = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/expos");
+        const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/expos");
         const data = await res.json();
         // Sirf available expos lein aur top 3 dikhayein
         const availableExpos = data

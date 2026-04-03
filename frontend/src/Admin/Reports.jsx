@@ -17,7 +17,7 @@
 //   const [stats, setStats] = useState(null);
 
 //   useEffect(() => {
-//     fetch("http://localhost:5000/api/reports/stats")
+//     fetch("https://event-managemant-system-mern-stack.vercel.app//api/reports/stats")
 //       .then((res) => res.json())
 //       .then((data) => setStats(data));
 //   }, []);
@@ -186,7 +186,7 @@ function Reports() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/reports/stats")
+    fetch("https://event-managemant-system-mern-stack.vercel.app//api/reports/stats")
       .then((res) => res.json())
       .then((data) => setStats(data))
       .catch(err => console.error("Fetch error:", err));

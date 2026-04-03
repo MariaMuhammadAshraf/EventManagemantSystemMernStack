@@ -10,7 +10,7 @@
 // import { motion, AnimatePresence } from "framer-motion";
 // import AttendeeSidebar from "./AttendeeSidebar";
 
-// const API = "http://localhost:5000";
+// const API = "https://event-managemant-system-mern-stack.vercel.app/";
 
 // function ExhibitorList() {
 //   const [exhibitors, setExhibitors] = useState([]);
@@ -225,7 +225,7 @@ import { MessageSquare, Search, Building2, User, ArrowRight, Sparkles, Menu } fr
 import { motion, AnimatePresence } from "framer-motion";
 import AttendeeSidebar from "./AttendeeSidebar";
 
-const API = "http://localhost:5000";
+const API = "https://event-managemant-system-mern-stack.vercel.app/";
 
 function ExhibitorList() {
   const [exhibitors, setExhibitors] = useState([]);

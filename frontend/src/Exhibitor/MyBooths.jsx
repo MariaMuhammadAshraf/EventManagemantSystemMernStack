@@ -1,7 +1,7 @@
 // import React, { useEffect, useMemo, useState } from "react";
 // import ExhibitorSidebar from "./ExhibitorSidebar";
 
-// const API_BASE = "http://localhost:5000";
+// const API_BASE = "https://event-managemant-system-mern-stack.vercel.app/";
 
 // const emptyStaffRow = () => ({ name: "", role: "", phone: "", email: "" });
 
@@ -716,7 +716,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import ExhibitorSidebar from "./ExhibitorSidebar";
 import { Menu, X, RefreshCw, LayoutGrid, Users, Send, Info } from "lucide-react";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://event-managemant-system-mern-stack.vercel.app/";
 
 const emptyStaffRow = () => ({ name: "", role: "", phone: "", email: "" });
 

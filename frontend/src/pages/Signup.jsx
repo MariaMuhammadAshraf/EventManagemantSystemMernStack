@@ -33,7 +33,7 @@
 // //     try {
 // //       setLoading(true);
 
-// //       const res = await fetch("http://localhost:5000/api/users", {
+// //       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users", {
 // //         method: "POST",
 // //         headers: { "Content-Type": "application/json" },
 // //         body: JSON.stringify({
@@ -244,7 +244,7 @@
 //     try {
 //       setLoading(true);
 
-//       const res = await fetch("http://localhost:5000/api/users", {
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({
@@ -455,7 +455,7 @@
 //     try {
 //       setLoading(true);
 
-//       const res = await fetch("http://localhost:5000/api/users", {
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({
@@ -698,7 +698,7 @@ function Signup() {
     if (formData.password !== formData.confirmPassword) { setError("Passwords do not match"); return; }
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:5000/api/users/register", {
+      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: formData.name, email: formData.email, password: formData.password }),

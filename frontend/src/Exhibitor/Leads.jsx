@@ -14,7 +14,7 @@
 //         if (!user) return;
 
 //         const res = await fetch(
-//           `http://localhost:5000/api/leads/exhibitor/${user._id}`
+//           `https://event-managemant-system-mern-stack.vercel.app//api/leads/exhibitor/${user._id}`
 //         );
 //         const data = await res.json();
 //         setLeads(Array.isArray(data) ? data : []);
@@ -155,7 +155,7 @@ function Leads() {
         if (!user) return;
 
         const res = await fetch(
-          `http://localhost:5000/api/leads/exhibitor/${user._id}`
+          `https://event-managemant-system-mern-stack.vercel.app//api/leads/exhibitor/${user._id}`
         );
         const data = await res.json();
         setLeads(Array.isArray(data) ? data : []);

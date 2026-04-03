@@ -13,7 +13,7 @@ function ExpoDetails() {
     const fetchExpo = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:5000/api/expos/${id}`
+          `https://event-managemant-system-mern-stack.vercel.app//api/expos/${id}`
         );
         setExpo(data);
       } catch (err) {
