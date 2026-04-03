@@ -8,7 +8,7 @@
 // import { Send, MessageSquare, ChevronDown, Sparkles, Building2, Clock, ShieldCheck, Zap } from "lucide-react";
 // import AttendeeSidebar from "./AttendeeSidebar";
 
-// const API = "https://event-managemant-system-mern-stack.vercel.app/";
+// const API = "https://event-managemant-system-mern-stack.vercel.app";
 
 // function AttendeeMessages() {
 //   const location = useLocation();
@@ -246,7 +246,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Send, MessageSquare, ChevronDown, Sparkles, Building2, Clock, ShieldCheck, Zap, Menu } from "lucide-react";
 import AttendeeSidebar from "./AttendeeSidebar";
 
-const API = "https://event-managemant-system-mern-stack.vercel.app/";
+const API = "https://event-managemant-system-mern-stack.vercel.app";
 
 function AttendeeMessages() {
   const location = useLocation();

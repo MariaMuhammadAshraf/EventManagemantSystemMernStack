@@ -33,7 +33,7 @@
 //   useEffect(() => {
 //     const fetchAbout = async () => {
 //       try {
-//         const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/about");
+//         const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/about");
 //         if (!res.ok) throw new Error("Failed to fetch");
 //         const data = await res.json();
 //         if (!data.features?.items) data.features = { heading: "", items: [] };
@@ -76,7 +76,7 @@
 //     e.preventDefault();
 //     setSaving(true);
 //     try {
-//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/about", {
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/about", {
 //         method: "PUT",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify(about),
@@ -93,7 +93,7 @@
 //     if (!window.confirm("This will clear all About content. Proceed?")) return;
 //     setSaving(true);
 //     try {
-//       await fetch("https://event-managemant-system-mern-stack.vercel.app//api/about", { method: "DELETE" });
+//       await fetch("https://event-managemant-system-mern-stack.vercel.app/api/about", { method: "DELETE" });
 //       setAbout({
 //         hero: { title: "", highlight: "", description: "", backgroundImageUrl: "" },
 //         mission: { title: "", description: "", imageUrl: "" },
@@ -336,7 +336,7 @@ function AdminAbout() {
   useEffect(() => {
     const fetchAbout = async () => {
       try {
-        const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/about");
+        const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/about");
         if (!res.ok) throw new Error("Failed to fetch");
         const data = await res.json();
         if (!data.features?.items) data.features = { heading: "", items: [] };
@@ -379,7 +379,7 @@ function AdminAbout() {
     e.preventDefault();
     setSaving(true);
     try {
-      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/about", {
+      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/about", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(about),
@@ -396,7 +396,7 @@ function AdminAbout() {
     if (!window.confirm("This will clear all About content. Proceed?")) return;
     setSaving(true);
     try {
-      await fetch("https://event-managemant-system-mern-stack.vercel.app//api/about", { method: "DELETE" });
+      await fetch("https://event-managemant-system-mern-stack.vercel.app/api/about", { method: "DELETE" });
       setAbout({
         hero: { title: "", highlight: "", description: "", backgroundImageUrl: "" },
         mission: { title: "", description: "", imageUrl: "" },

@@ -7,7 +7,7 @@
 // import { motion, AnimatePresence } from "framer-motion";
 // import toast from "react-hot-toast";
 
-// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app/api";
 
 // function MySchedule() {
 //   const navigate = useNavigate();
@@ -243,7 +243,7 @@ import { Bookmark, BookmarkCheck, MapPin, Calendar, Search, Filter, ArrowRight, 
 import { motion, AnimatePresence } from "framer-motion";
 import toast from "react-hot-toast";
 
-const API = "https://event-managemant-system-mern-stack.vercel.app//api";
+const API = "https://event-managemant-system-mern-stack.vercel.app/api";
 
 function MySchedule() {
   const navigate = useNavigate();

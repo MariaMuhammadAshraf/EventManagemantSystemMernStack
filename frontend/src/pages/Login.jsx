@@ -26,7 +26,7 @@
 //     try {
 //       setLoading(true);
 
-//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users/login", {
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/login", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify(formData),
@@ -218,7 +218,7 @@
 //   setError("");
 //   try {
 //     setLoading(true);
-//     const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users/login", {
+//     const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/login", {
 //       method: "POST",
 //       headers: { "Content-Type": "application/json" },
 //       body: JSON.stringify(formData),
@@ -444,7 +444,7 @@ function Login() {
     setError("");
     setLoading(true);
     try {
-      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users/login", {
+      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

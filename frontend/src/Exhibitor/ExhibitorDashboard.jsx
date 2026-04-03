@@ -2,7 +2,7 @@
 // import ExhibitorSidebar from "./ExhibitorSidebar";
 // import { LayoutDashboard, Users, TrendingUp, Building2 } from "lucide-react";
 
-// const API = process.env.REACT_APP_API_URL || "https://event-managemant-system-mern-stack.vercel.app/";
+// const API = process.env.REACT_APP_API_URL || "https://event-managemant-system-mern-stack.vercel.app";
 
 // function startOfToday() {
 //   const d = new Date();
@@ -480,7 +480,7 @@ import ExhibitorSidebar from "./ExhibitorSidebar";
 import { LayoutDashboard, Users, TrendingUp, Building2, Menu, ArrowUpRight, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion"; // Added for high-end animations
 
-const API = process.env.REACT_APP_API_URL || "https://event-managemant-system-mern-stack.vercel.app/";
+const API = process.env.REACT_APP_API_URL || "https://event-managemant-system-mern-stack.vercel.app";
 
 // --- HELPERS (NO CHANGES) ---
 function startOfToday() { const d = new Date(); d.setHours(0, 0, 0, 0); return d; }

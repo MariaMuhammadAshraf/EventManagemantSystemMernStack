@@ -27,7 +27,7 @@
 //     setLoading(true);
 
 //     try {
-//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users/forgot-password", {
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/forgot-password", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ email }),
@@ -147,7 +147,7 @@ function ForgotPassword() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/users/forgot-password", {
+      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/forgot-password", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),

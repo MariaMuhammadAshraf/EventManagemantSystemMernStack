@@ -23,7 +23,7 @@
 
 //   const fetchExpos = async () => {
 //     try {
-//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/expos");
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/expos");
 //       const data = await res.json();
 //       setExpos(data);
 //       setLoading(false);
@@ -41,7 +41,7 @@
 
 //   const handleSubmit = async (e) => {
 //     e.preventDefault();
-//     const url = isEditMode ? `https://event-managemant-system-mern-stack.vercel.app//api/expos/${selectedExpo._id}` : "https://event-managemant-system-mern-stack.vercel.app//api/expos";
+//     const url = isEditMode ? `https://event-managemant-system-mern-stack.vercel.app/api/expos/${selectedExpo._id}` : "https://event-managemant-system-mern-stack.vercel.app/api/expos";
 //     const method = isEditMode ? "PUT" : "POST";
 
 //     await fetch(url, {
@@ -84,7 +84,7 @@
 
 //   const handleDelete = async (id) => {
 //     if (!window.confirm("Are you sure you want to delete this event?")) return;
-//     await fetch(`https://event-managemant-system-mern-stack.vercel.app//api/expos/${id}`, { method: "DELETE" });
+//     await fetch(`https://event-managemant-system-mern-stack.vercel.app/api/expos/${id}`, { method: "DELETE" });
 //     fetchExpos();
 //   };
 
@@ -290,7 +290,7 @@
 
 //   const fetchExpos = async () => {
 //     try {
-//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/expos");
+//       const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/expos");
 //       const data = await res.json();
 //       setExpos(data);
 //       setLoading(false);
@@ -307,8 +307,8 @@
 //   const handleSubmit = async (e) => {
 //     e.preventDefault();
 //     const url = isEditMode
-//       ? `https://event-managemant-system-mern-stack.vercel.app//api/expos/${selectedExpo._id}`
-//       : "https://event-managemant-system-mern-stack.vercel.app//api/expos";
+//       ? `https://event-managemant-system-mern-stack.vercel.app/api/expos/${selectedExpo._id}`
+//       : "https://event-managemant-system-mern-stack.vercel.app/api/expos";
 //     const method = isEditMode ? "PUT" : "POST";
 
 //     await fetch(url, {
@@ -351,7 +351,7 @@
 
 //   const handleDelete = async (id) => {
 //     if (!window.confirm("Are you sure you want to delete this event?")) return;
-//     await fetch(`https://event-managemant-system-mern-stack.vercel.app//api/expos/${id}`, { method: "DELETE" });
+//     await fetch(`https://event-managemant-system-mern-stack.vercel.app/api/expos/${id}`, { method: "DELETE" });
 //     fetchExpos();
 //   };
 
@@ -667,7 +667,7 @@ function AdminExpos() {
 
   const fetchExpos = async () => {
     try {
-      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app//api/expos");
+      const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/expos");
       const data = await res.json();
       setExpos(data);
       setLoading(false);
@@ -680,7 +680,7 @@ function AdminExpos() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = isEditMode ? `https://event-managemant-system-mern-stack.vercel.app//api/expos/${selectedExpo._id}` : "https://event-managemant-system-mern-stack.vercel.app//api/expos";
+    const url = isEditMode ? `https://event-managemant-system-mern-stack.vercel.app/api/expos/${selectedExpo._id}` : "https://event-managemant-system-mern-stack.vercel.app/api/expos";
     await fetch(url, {
       method: isEditMode ? "PUT" : "POST",
       headers: { "Content-Type": "application/json" },
@@ -711,7 +711,7 @@ function AdminExpos() {
 
   const handleDelete = async (id) => {
     if (!window.confirm("Are you sure you want to delete this event?")) return;
-    await fetch(`https://event-managemant-system-mern-stack.vercel.app//api/expos/${id}`, { method: "DELETE" });
+    await fetch(`https://event-managemant-system-mern-stack.vercel.app/api/expos/${id}`, { method: "DELETE" });
     fetchExpos();
   };
 

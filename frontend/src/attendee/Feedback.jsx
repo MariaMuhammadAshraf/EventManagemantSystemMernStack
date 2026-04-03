@@ -14,7 +14,7 @@
 // } from "lucide-react";
 // import AttendeeSidebar from "./AttendeeSidebar";
 
-// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app/api";
 
 // const Feedback = () => {
 //   const user = JSON.parse(localStorage.getItem("user"));
@@ -266,7 +266,7 @@ import {
 } from "lucide-react";
 import AttendeeSidebar from "./AttendeeSidebar";
 
-const API = "https://event-managemant-system-mern-stack.vercel.app//api";
+const API = "https://event-managemant-system-mern-stack.vercel.app/api";
 
 const Feedback = () => {
   const user = JSON.parse(localStorage.getItem("user"));

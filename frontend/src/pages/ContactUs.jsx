@@ -17,7 +17,7 @@
 
 //     try {
 //       // A. Pehle Backend (Database) mein save karein
-//       await axios.post("https://event-managemant-system-mern-stack.vercel.app//api/contact", form);
+//       await axios.post("https://event-managemant-system-mern-stack.vercel.app/api/contact", form);
 
 //       // B. Phir EmailJS se email bhejein
 //       // In IDs ko apne EmailJS Dashboard se replace karein
@@ -159,7 +159,7 @@ function Contact() {
 
     try {
       // A. Database Save
-      await axios.post("https://event-managemant-system-mern-stack.vercel.app//api/contact", form);
+      await axios.post("https://event-managemant-system-mern-stack.vercel.app/api/contact", form);
 
       // B. EmailJS Send
       const serviceID = "service_mpybi5k";

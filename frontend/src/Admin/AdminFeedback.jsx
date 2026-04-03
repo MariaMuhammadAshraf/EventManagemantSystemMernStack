@@ -2,7 +2,7 @@
 // // import axios from "axios";
 // // import AdminSidebar from "./AdminSidebar";
 
-// // const API = "https://event-managemant-system-mern-stack.vercel.app//api";
+// // const API = "https://event-managemant-system-mern-stack.vercel.app/api";
 
 // // const AdminFeedback = () => {
 // //   const [feedbacks, setFeedbacks] = useState([]);
@@ -168,7 +168,7 @@
 // } from "lucide-react";
 // import AdminSidebar from "./AdminSidebar";
 
-// const API = "https://event-managemant-system-mern-stack.vercel.app//api";
+// const API = "https://event-managemant-system-mern-stack.vercel.app/api";
 
 // const AdminFeedback = () => {
 //   const [feedbacks, setFeedbacks] = useState([]);
@@ -357,7 +357,7 @@ import {
 } from "lucide-react";
 import AdminSidebar from "./AdminSidebar";
 
-const API = "https://event-managemant-system-mern-stack.vercel.app//api";
+const API = "https://event-managemant-system-mern-stack.vercel.app/api";
 
 const AdminFeedback = () => {
   const [feedbacks, setFeedbacks] = useState([]);

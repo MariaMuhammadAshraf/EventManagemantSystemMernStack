@@ -4,7 +4,7 @@
 //   const [data, setData] = useState(null);
 
 //   useEffect(() => {
-//     fetch("https://event-managemant-system-mern-stack.vercel.app//api/about")
+//     fetch("https://event-managemant-system-mern-stack.vercel.app/api/about")
 //       .then((res) => res.json())
 //       .then(setData)
 //       .catch(console.error);
@@ -102,7 +102,7 @@ function About() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("https://event-managemant-system-mern-stack.vercel.app//api/about")
+    fetch("https://event-managemant-system-mern-stack.vercel.app/api/about")
       .then((res) => res.json())
       .then(setData)
       .catch(console.error);
