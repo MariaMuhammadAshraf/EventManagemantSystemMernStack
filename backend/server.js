@@ -33,7 +33,11 @@ const app = express();
 // app.use(express.json());
 
 // ✅ MIDDLEWARE (Inka sequence top par hona zaroori hai)
-app.use(cors());
+app.use(cors({
+  origin: "*", // Filhal sab allow kar rahe hain taake connection ban jaye
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 
@@ -69,3 +73,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+export default app;
