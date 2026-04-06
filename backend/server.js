@@ -34,11 +34,7 @@ const app = express();
 // app.use(express.json());
 
 // ✅ MIDDLEWARE (Inka sequence top par hona zaroori hai)
-app.use(cors({
-  origin: "*", 
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
-}));
+app.use(cors());
 
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
