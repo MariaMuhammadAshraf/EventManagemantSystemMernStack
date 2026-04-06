@@ -35,13 +35,11 @@ const app = express();
 
 // ✅ MIDDLEWARE (Inka sequence top par hona zaroori hai)
 app.use(cors({
-  origin: [
-    "https://event-managemant-system-mern-stack-dvlh-5fapfhzxg.vercel.app",
-    "https://event-managemant-system-mern-stack.vercel.app" // Aapka main frontend domain
-  ],
-  methods: ["POST", "GET", "PUT", "DELETE"],
-  credentials: true
+  origin: "*", 
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
 }));
+
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 
