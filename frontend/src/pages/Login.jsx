@@ -445,7 +445,9 @@ function Login() {
     setLoading(true);
     try {
       // ✅ Sahi tarika (No extra spaces or slashes)
- const res = await fetch("https://event-managemant-system-mern-stack.vercel.app/api/users/login",{
+// URL bante waqt variable aur /api ke beech sirf ek slash ho
+const apiUrl = process.env.REACT_APP_API_URL.replace(/\/$/, ""); // Ye line extra slash ko khud hi khatam kar degi
+const res = await fetch(`${apiUrl}/api/users/login`, {
   method: "POST",
   headers: { 
     "Content-Type": "application/json",
