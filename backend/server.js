@@ -35,7 +35,10 @@ const app = express();
 
 // ✅ MIDDLEWARE (Inka sequence top par hona zaroori hai)
 app.use(cors({
-  origin: "https://event-managemant-system-mern-stack-dvlh-5fapfhzxg.vercel.app", // Ye aapka frontend URL hai jo console mein dikh raha hai
+  origin: [
+    "https://event-managemant-system-mern-stack-dvlh-5fapfhzxg.vercel.app",
+    "https://event-managemant-system-mern-stack.vercel.app" // Aapka main frontend domain
+  ],
   methods: ["POST", "GET", "PUT", "DELETE"],
   credentials: true
 }));
