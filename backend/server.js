@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 import cors from "cors";
+ 
 
 import connectDB from "./config/db.js";
 
@@ -34,8 +35,8 @@ const app = express();
 
 // ✅ MIDDLEWARE (Inka sequence top par hona zaroori hai)
 app.use(cors({
-  origin: "*",
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: "https://event-managemant-system-mern-stack-dvlh-5fapfhzxg.vercel.app", // Ye aapka frontend URL hai jo console mein dikh raha hai
+  methods: ["POST", "GET", "PUT", "DELETE"],
   credentials: true
 }));
 app.use(express.json());
